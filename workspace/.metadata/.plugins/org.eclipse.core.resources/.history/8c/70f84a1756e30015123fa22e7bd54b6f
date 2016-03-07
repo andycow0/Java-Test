@@ -1,0 +1,10 @@
+package Andycow0.Lib;
+
+public class Girls {
+	public Girls() {
+	}
+
+	public void SayHi() {
+		System.out.println("Hi! I'm Girls!");
+	}
+}

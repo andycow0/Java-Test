@@ -1,0 +1,4 @@
+
+public class SimpleMath {
+ private static  final double PI=3.14159;
+}

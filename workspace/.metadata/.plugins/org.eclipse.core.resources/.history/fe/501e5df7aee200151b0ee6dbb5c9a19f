@@ -1,0 +1,24 @@
+public class Hello
+{
+	private String _Name;
+	public String NameP;
+	public Hello()
+	{
+		
+	}
+	
+	public Hello(String name)
+	{
+		_Name=name;
+	}
+	
+	public void SayHello()
+	{
+		System.out.println("My name is "+_Name);
+	}
+	
+	public void SetName(String newName)
+	{
+		_Name=newName;
+	}
+}

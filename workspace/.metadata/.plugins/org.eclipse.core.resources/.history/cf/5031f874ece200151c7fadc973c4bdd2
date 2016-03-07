@@ -1,0 +1,8 @@
+
+public class PantsDemo {
+	public static void main(String[] argus) {
+		Pants pants = new Pants();
+		
+		pants.SetSize(30);
+	}
+}

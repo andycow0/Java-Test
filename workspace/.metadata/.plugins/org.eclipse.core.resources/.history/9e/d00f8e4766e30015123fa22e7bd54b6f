@@ -1,0 +1,34 @@
+import java.sql.*;
+import net.ucanaccess.jdbc.JackcessOpenerInterface;
+
+public class JDBCExample {
+
+	public static void main(String[] args) throws SQLException {
+		Connection connDB = null;
+
+		try {
+			Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+
+			String dataSource = "jdbc:ucanaccess://D:/java/workspace/HelloTest/Resources/Database1.accdb";
+			//連結資料庫
+			connDB = DriverManager.getConnection(dataSource);
+			
+			Statement st=connDB.createStatement();
+			
+			st.executeUpdate("INSERT INTO Customer (CustomerName, Phone) VALUES ('Andycow0','62551')");
+			st.executeUpdate("INSERT INTO Customer (CustomerName, Phone) VALUES ('Andycow1','62991')");
+			st.executeUpdate("INSERT INTO Customer (CustomerName, Phone) VALUES ('Andycow2','67551')");
+			//撈出剛剛新增的資料
+            st.execute("SELECT * FROM member");
+            
+            
+			st.close();
+            connDB.close();
+
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+}

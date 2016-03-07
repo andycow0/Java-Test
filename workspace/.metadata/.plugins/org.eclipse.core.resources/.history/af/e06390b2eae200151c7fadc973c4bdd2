@@ -1,0 +1,10 @@
+
+public class Clothes {
+	char size;
+	double price;
+	
+	public void SetSize(char size)
+	{
+		this.size=size;
+	}
+}

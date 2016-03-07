@@ -1,0 +1,12 @@
+import java.sql.*;
+import net.ucanaccess.jdbc.JackcessOpenerInterface;
+
+public class JDBCExample {
+
+	public static void main(String[] args) {
+		Connection connDB = null;
+		try {
+		} catch (SQLException e) {
+		}
+	}
+}

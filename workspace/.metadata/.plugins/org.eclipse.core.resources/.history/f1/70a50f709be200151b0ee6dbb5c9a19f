@@ -1,0 +1,21 @@
+//import java.util.Scanner;
+
+public class WrapperTest {
+	public static void main(String[] args)
+	{
+		System.out.println("Hello, this is Wrapper Test!!");
+		
+		Integer ageOfStudent=new Integer(20);
+		
+		System.out.print("The value of original Int:");
+		System.out.println(ageOfStudent.intValue());
+		
+		System.out.print("double type:");
+		System.out.println(ageOfStudent.doubleValue());
+		
+		Integer ageOfOthers=new Integer(10);
+		
+		
+		// Scanner scan=new Scanner(System.in);
+	}
+}

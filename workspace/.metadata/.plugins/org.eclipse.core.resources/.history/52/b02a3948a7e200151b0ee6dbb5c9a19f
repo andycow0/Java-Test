@@ -1,0 +1,17 @@
+
+
+public class Hello
+{
+	private String _Name;
+	
+	public Hello()
+	{
+		
+	}
+	
+	public Hello(String name)
+	{
+		
+	}
+	
+}

@@ -1,0 +1,16 @@
+
+public class Some implements ContainerListener {
+
+//	@Override
+	public void Hello() {
+		// TODO Auto-generated method stub
+		
+	}
+
+//	@Override
+	public void GoodBye() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

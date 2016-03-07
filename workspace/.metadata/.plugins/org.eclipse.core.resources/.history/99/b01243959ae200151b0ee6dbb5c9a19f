@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class WrapperTest {
+	public static void main(String[] args)
+	{
+		System.out.println("Hello, this is Wrapper Test!!");
+		
+		Integer ageOfStudent=new Integer(20);
+		
+		Scanner scan=new Scanner();
+	}
+}

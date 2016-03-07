@@ -1,0 +1,14 @@
+
+public class PantsDemo {
+	public static void main(String[] argus) {
+		Pants pants = new Pants();
+		
+		pants.SetSize('L');
+		pants.SetPrice(599.0);
+		//pants.Setwaistline(28);
+		
+		System.out.println("Size is "+pants.GetSize());
+		System.out.println("Price is "+pants.GetPrice());
+		System.out.println("Waistline is "+pants.GetWaistline());
+	}
+}

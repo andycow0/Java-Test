@@ -1,0 +1,35 @@
+public class Hello
+{
+	private String _Name;
+	public String combined;
+	public Hello()
+	{
+		 combined="";
+	}
+	
+	public Hello(String name)
+	{
+		_Name=name;
+	}
+	
+	public void SayHello()
+	{
+		System.out.println("My name is "+_Name);
+	}
+	
+	public void SetName(String newName)
+	{
+		_Name=newName;
+	}
+	
+	public String ShowAllChar(char... params)
+	{
+		combined="";
+		
+		for (int i = 0; i < params.length; i++) {
+			combined+=params[i];
+		}
+		
+		return combined;
+	}
+}
