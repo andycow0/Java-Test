@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="C:\Users\stor\Desktop\UCanAccess-3.0.3.1-bin\lib" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="D:\GitHub\Java-Test\Packages\UCanAccess-3.0.3.1-bin" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="filter_imports;" key="filters_last_used"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="false" key="updateSimilarElements"/>

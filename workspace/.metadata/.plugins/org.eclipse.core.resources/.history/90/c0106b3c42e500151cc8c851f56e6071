@@ -1,0 +1,16 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.*;
+import Andycow0.Lib.Girl;
+
+public class ClothesTest {
+
+	@Test
+	public void test() {
+		Girl girl=new Girl();
+
+		fail("Not yet implemented");
+	}
+
+}

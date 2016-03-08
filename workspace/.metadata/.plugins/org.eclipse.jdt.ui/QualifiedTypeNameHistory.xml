@@ -4,4 +4,7 @@
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="net.ucanaccess.jdbc.JackcessOpenerInterface"/>
 <fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="Andycow0.Lib.Girl"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
 </qualifiedTypeNameHistroy>

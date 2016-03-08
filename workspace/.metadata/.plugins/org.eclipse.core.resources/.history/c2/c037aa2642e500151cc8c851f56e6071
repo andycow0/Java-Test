@@ -1,0 +1,15 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.*;
+
+public class ClothesTest {
+
+	@Test
+	public void test() {
+		Andycow0 andycow0=new Andycow0();
+
+		fail("Not yet implemented");
+	}
+
+}
