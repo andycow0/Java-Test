@@ -1,7 +1,0 @@
-package Andycow0.Test;
-public interface ContainerListener {
-
-	public void Hello();
-
-	public void GoodBye();
-}

@@ -1,0 +1,22 @@
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.Invocation;
+import javax.ws.rs.client.WebTarget;
+
+import org.junit.Test;
+
+public class ClientTest {
+
+	private static String url = "http://localhost:8080/JavaRESTJerseyExample/api/hello";
+	//@Test
+	public static void main(String[] args) {
+		Client client = ClientBuilder.newClient();
+		
+		//Invocation invocation=client.target(url).request()
+		/*
+		 * WebTarget webTarget = client.target(url);
+		String response = webTarget.request().get(String.class);
+		System.out.println(response);
+		*/
+	}
+}

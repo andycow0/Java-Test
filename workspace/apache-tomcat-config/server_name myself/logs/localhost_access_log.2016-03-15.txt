@@ -1,0 +1,13 @@
+127.0.0.1 - - [15/Mar/2016:23:18:31 +0800] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [15/Mar/2016:23:18:31 +0800] "GET /JavaRESTJerseyExample/ HTTP/1.1" 404 1038
+0:0:0:0:0:0:0:1 - - [15/Mar/2016:23:18:46 +0800] "GET /JavaRESTJerseyExample/hello HTTP/1.1" 404 1048
+0:0:0:0:0:0:0:1 - - [15/Mar/2016:23:18:55 +0800] "GET /JavaRESTJerseyExample/Hello HTTP/1.1" 404 1048
+0:0:0:0:0:0:0:1 - - [15/Mar/2016:23:19:11 +0800] "GET /JavaRESTJerseyExample/hello/Hello HTTP/1.1" 404 1060
+0:0:0:0:0:0:0:1 - - [15/Mar/2016:23:19:16 +0800] "GET /JavaRESTJerseyExample/rest/Hello HTTP/1.1" 404 1058
+0:0:0:0:0:0:0:1 - - [15/Mar/2016:23:20:07 +0800] "GET /JavaRESTJerseyExample/api/Hello HTTP/1.1" 404 1010
+0:0:0:0:0:0:0:1 - - [15/Mar/2016:23:20:22 +0800] "GET /JavaRESTJerseyExample/api/hello HTTP/1.1" 200 13
+0:0:0:0:0:0:0:1 - - [15/Mar/2016:23:20:29 +0800] "GET /JavaRESTJerseyExample/api/hello HTTP/1.1" 200 13
+0:0:0:0:0:0:0:1 - - [15/Mar/2016:23:20:42 +0800] "GET /JavaRESTJerseyExample/api/hello HTTP/1.1" 200 13
+0:0:0:0:0:0:0:1 - - [15/Mar/2016:23:20:48 +0800] "GET /JavaRESTJerseyExample/api/Hello HTTP/1.1" 404 1010
+0:0:0:0:0:0:0:1 - - [15/Mar/2016:23:20:51 +0800] "GET /JavaRESTJerseyExample/api/hello HTTP/1.1" 200 13
+127.0.0.1 - - [15/Mar/2016:23:33:29 +0800] "GET /JavaRESTJerseyExample/api/hello HTTP/1.1" 200 76

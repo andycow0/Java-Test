@@ -1,0 +1,8 @@
+
+
+public class ClientTest {
+	public ClientTest() {
+		Client c = new Client();
+	}
+
+}

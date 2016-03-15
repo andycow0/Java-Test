@@ -1,6 +1,0 @@
-
-public class SimpleContainer {
-
-	private Object[] objArr;
-	private int index=0;
-}

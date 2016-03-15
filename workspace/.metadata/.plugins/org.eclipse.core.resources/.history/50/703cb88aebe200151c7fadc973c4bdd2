@@ -1,8 +1,0 @@
-
-public class Pants extends Clothes {
-	private int waistline;
-
-	public void Setwaistline(double waistline) {
-		this.waistline = waistline;
-	}
-}
