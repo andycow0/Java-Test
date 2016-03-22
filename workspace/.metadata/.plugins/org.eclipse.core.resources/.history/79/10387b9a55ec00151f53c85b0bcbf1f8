@@ -1,0 +1,11 @@
+package org.sample.test;
+
+public class Customer {
+	private String _Name;
+	public Customer() {
+		
+	}
+	public String Name() {
+		return 
+	}
+}

@@ -1,0 +1,13 @@
+package org.sample.test;
+
+public class Customer {
+	private String _Name;
+
+	public Customer() {
+
+	}
+
+	public void SetName(String name) {
+		_Name = name;
+	}
+}

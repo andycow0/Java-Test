@@ -1,0 +1,5 @@
+package com.eviac.blog.restclient;
+
+public class UserInfoClient {
+
+}

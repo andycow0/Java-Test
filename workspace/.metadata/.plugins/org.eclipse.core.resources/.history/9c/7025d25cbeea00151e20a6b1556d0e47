@@ -1,9 +1,0 @@
-import javax.ws.rs.core.*;
-
-public class ClientTest {
-	public ClientTest() {
-		
-
-	}
-
-}

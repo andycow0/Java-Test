@@ -1,0 +1,7 @@
+package org.sample.test;
+
+import java.awt.List;
+
+public class Customers<T> {
+	List<T> list = new ArrayList<T>();
+}

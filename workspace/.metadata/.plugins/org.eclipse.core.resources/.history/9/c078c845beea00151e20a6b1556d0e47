@@ -1,9 +1,0 @@
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.ClientBuilder;
-
-public class ClientTest {
-	public ClientTest() {
-		Client client = ClientBuilder.newClient();
-	}
-
-}

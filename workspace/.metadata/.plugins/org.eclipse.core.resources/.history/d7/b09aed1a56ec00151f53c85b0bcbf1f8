@@ -1,0 +1,21 @@
+package org.sample.test;
+
+public class Customer {
+	private String _Name;
+
+	public Customer() {
+
+	}
+
+	public String get_Name() {
+		return _Name;
+	}
+
+	public void set_Name(String _Name) {
+		this._Name = _Name;
+	}
+
+	public void SetName(String name) {
+		_Name = name;
+	}
+}

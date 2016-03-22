@@ -1,0 +1,5 @@
+package com.eviac.blog.restws;
+
+public class UserInfo {
+
+}

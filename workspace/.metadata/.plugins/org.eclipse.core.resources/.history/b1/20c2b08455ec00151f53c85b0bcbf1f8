@@ -1,0 +1,7 @@
+package org.sample.test;
+
+public class Customer {
+	public Customer() {
+		
+	}
+}

@@ -56,11 +56,13 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Jersey119RESTExample"/>
 			<item value="JavaRESTJerseyExample"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Jersey119RESTExample"/>
 			<item value="JavaRESTJerseyExample"/>
 		</list>
 		<list key="version">
